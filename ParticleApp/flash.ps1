@@ -1,0 +1,1 @@
+﻿Get-ChildItem $PSScriptRoot -filter "*.bin" | Foreach { particle flash --usb $_.FullName  }
